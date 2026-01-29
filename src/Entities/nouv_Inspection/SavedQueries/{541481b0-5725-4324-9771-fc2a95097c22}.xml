@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{541481b0-5725-4324-9771-fc2a95097c22}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="nouv_inspectionname" select="1" icon="1" preview="1">
+        <row name="result" id="nouv_inspectionid">
+          <cell name="nouv_inspectionname" width="300" />
+          <cell name="nouv_inspectiondate" width="150" />
+          <cell name="nouv_result" width="150" />
+          <cell name="nouv_notes" width="150" />
+          <cell name="nouv_inspector" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="nouv_inspection">
+          <attribute name="nouv_inspectionid" />
+          <attribute name="nouv_inspectionname" />
+          <attribute name="createdon" />
+          <order attribute="nouv_inspectionname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="nouv_inspectiondate" />
+          <attribute name="nouv_result" />
+          <attribute name="nouv_notes" />
+          <attribute name="nouv_inspector" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Inspections" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

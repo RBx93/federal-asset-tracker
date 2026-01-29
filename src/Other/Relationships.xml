@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_nouv_asset" />
+  <EntityRelationship Name="business_unit_nouv_inspection" />
+  <EntityRelationship Name="business_unit_nouv_location" />
+  <EntityRelationship Name="lk_nouv_asset_createdby" />
+  <EntityRelationship Name="lk_nouv_asset_modifiedby" />
+  <EntityRelationship Name="lk_nouv_inspection_createdby" />
+  <EntityRelationship Name="lk_nouv_inspection_modifiedby" />
+  <EntityRelationship Name="lk_nouv_location_createdby" />
+  <EntityRelationship Name="lk_nouv_location_modifiedby" />
+  <EntityRelationship Name="nouv_Asset_nouv_Asset_nouv_Inspection" />
+  <EntityRelationship Name="nouv_Asset_nouv_Location_nouv_Location" />
+  <EntityRelationship Name="owner_nouv_asset" />
+  <EntityRelationship Name="owner_nouv_inspection" />
+  <EntityRelationship Name="owner_nouv_location" />
+  <EntityRelationship Name="team_nouv_asset" />
+  <EntityRelationship Name="team_nouv_inspection" />
+  <EntityRelationship Name="team_nouv_location" />
+  <EntityRelationship Name="TransactionCurrency_nouv_Asset" />
+  <EntityRelationship Name="user_nouv_asset" />
+  <EntityRelationship Name="user_nouv_inspection" />
+  <EntityRelationship Name="user_nouv_location" />
+</EntityRelationships>

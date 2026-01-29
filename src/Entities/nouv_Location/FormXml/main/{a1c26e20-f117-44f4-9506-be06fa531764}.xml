@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a1c26e20-f117-44f4-9506-be06fa531764}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{7cf712f4-ca31-4b93-a663-e16920cfca6f}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c6faa40c-6ee9-4660-9cd0-b2c6ddb9a8c8}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ba209a9f-a78a-4086-9ac4-0f880c8bd4a3}">
+                        <labels>
+                          <label description="Location Name" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_locationname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nouv_locationname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9544ea55-80ca-4827-8728-b177ea17aa0f}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dad8f8a9-01f3-4afc-a24d-24a2394f4833}">
+                        <labels>
+                          <label description="alt_location_code_id" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_alt_location_code_id" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="nouv_alt_location_code_id" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c45ebdaa-28f0-4c9a-a967-b39304609cd2}">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_address" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="nouv_address" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c86d1c40-0e50-4c43-9edc-e94716b728c3}">
+                        <labels>
+                          <label description="Building" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_building" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="nouv_building" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9ce12258-6541-4023-bd5c-275e4feb73f0}">
+                        <labels>
+                          <label description="Room" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_room" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="nouv_room" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8f4c12f2-38f2-4012-8e72-0b6b1f678bcf}">
+                        <labels>
+                          <label description="Region" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_region" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="nouv_region" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

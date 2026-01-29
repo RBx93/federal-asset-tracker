@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e3a4d65d-d1e7-477b-81f4-496df9eaae1d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="nouv_locationname" select="1" icon="1" preview="1">
+        <row name="result" id="nouv_locationid">
+          <cell name="nouv_locationname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="nouv_location">
+          <attribute name="nouv_locationid" />
+          <attribute name="nouv_locationname" />
+          <attribute name="createdon" />
+          <order attribute="nouv_locationname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="nouv_locationname" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Locations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

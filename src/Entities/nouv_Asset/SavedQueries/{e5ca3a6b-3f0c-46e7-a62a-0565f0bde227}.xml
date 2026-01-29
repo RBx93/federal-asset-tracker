@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e5ca3a6b-3f0c-46e7-a62a-0565f0bde227}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="nouv_assetname" select="1" icon="1" preview="1">
+        <row name="result" id="nouv_assetid">
+          <cell name="nouv_assetname" width="300" />
+          <cell name="nouv_alt_asset_id" width="150" />
+          <cell name="nouv_description" width="150" />
+          <cell name="nouv_serialnumber" width="150" />
+          <cell name="nouv_acquisitiondate" width="150" />
+          <cell name="nouv_acquisitioncost" width="150" />
+          <cell name="nouv_status" width="150" />
+          <cell name="nouv_assettype" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="nouv_asset">
+          <attribute name="nouv_assetid" />
+          <attribute name="nouv_assetname" />
+          <attribute name="createdon" />
+          <order attribute="nouv_assetname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="nouv_alt_asset_id" />
+          <attribute name="nouv_description" />
+          <attribute name="nouv_serialnumber" />
+          <attribute name="nouv_acquisitiondate" />
+          <attribute name="nouv_acquisitioncost" />
+          <attribute name="nouv_status" />
+          <attribute name="nouv_assettype" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Assets" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

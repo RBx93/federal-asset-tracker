@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{4ee003b1-161d-4f66-8f90-b0dacafed2e5}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="nouv_locationname" select="1" icon="1" preview="1">
+        <row name="result" id="nouv_locationid">
+          <cell name="nouv_locationname" width="300" />
+          <cell name="nouv_alt_location_code_id" width="150" />
+          <cell name="nouv_address" width="150" />
+          <cell name="nouv_building" width="150" />
+          <cell name="nouv_room" width="150" />
+          <cell name="nouv_region" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="nouv_location">
+          <attribute name="nouv_locationid" />
+          <attribute name="nouv_locationname" />
+          <attribute name="createdon" />
+          <order attribute="nouv_locationname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="nouv_alt_location_code_id" />
+          <attribute name="nouv_address" />
+          <attribute name="nouv_building" />
+          <attribute name="nouv_room" />
+          <attribute name="nouv_region" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Locations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{7f0543d2-6413-4c44-afea-3eae5d0b017d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="nouv_assetname" select="1" icon="1" preview="1">
+        <row name="result" id="nouv_assetid">
+          <cell name="nouv_assetname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="nouv_asset">
+          <attribute name="nouv_assetid" />
+          <attribute name="nouv_assetname" />
+          <attribute name="createdon" />
+          <order attribute="nouv_assetname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Assets" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

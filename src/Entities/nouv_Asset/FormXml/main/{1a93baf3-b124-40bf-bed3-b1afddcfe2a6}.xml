@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1a93baf3-b124-40bf-bed3-b1afddcfe2a6}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{0fa8ffed-9abe-4b23-83c2-2cf2fe7b2340}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{13467f7b-624d-403c-ac89-283a3a45a2cb}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{65737ac1-3ae2-4c0c-b98e-1d99f1b2df2e}">
+                        <labels>
+                          <label description="Asset Name" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_assetname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nouv_assetname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f6aa79b6-7609-4715-8fb4-a16bbe51fc2f}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{15d4ce55-79ae-46b3-8f9f-93bebc35857a}">
+                        <labels>
+                          <label description="alt_asset_id" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_alt_asset_id" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="nouv_alt_asset_id" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bd4e3522-0aac-4fc4-93fd-c892fcd1e4bb}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_description" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="nouv_description" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{77dd6081-8d41-45d9-b53a-279042e0003d}">
+                        <labels>
+                          <label description="Serial Number" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_serialnumber" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="nouv_serialnumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ccac3fa6-98a6-4af6-88a2-feae1106b7f1}">
+                        <labels>
+                          <label description="Acquisition Date" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_acquisitiondate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="nouv_acquisitiondate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b5256cc7-df8f-45c0-b9d8-571b0a5c3ab5}">
+                        <labels>
+                          <label description="Acquisition Cost" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_acquisitioncost" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="nouv_acquisitioncost" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{47e2d7fc-19e8-4892-bc01-2f98837a6bd4}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="nouv_status" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8143315b-dcea-4892-91e5-80bd4e88627c}">
+                        <labels>
+                          <label description="Asset Type" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_assettype" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="nouv_assettype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eb7da002-b5d6-4b4a-ad89-ff7204950807}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Location" languagecode="1033" />
+                        </labels>
+                        <control id="nouv_location" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nouv_location" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{c5098e63-7fb7-4599-9f8d-a9357d7d58f7}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{dca9045b-b8eb-4845-8c91-ab737c1507c2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{92a25e12-2dc6-4c52-9aa4-160d52d87107}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d057e287-7db9-4025-bc1e-a16147b55d9c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{875881e9-f9fc-4776-8ae3-0abb60a50b81}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ea9c7d33-d843-42ea-a060-1fe8b0cd35a6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{81646eb9-1072-42e1-939b-2ca3d8c23b84}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{18bfb88e-7ba4-440c-9327-c221cc11bbd4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
